@@ -37,10 +37,23 @@ Python | NumPy | Matplotlib | Google Colab
 | F1 Score | 0.740 | 0.721 |
 | AUC | 0.707 | 0.757 |
 
-## 🧾 Files
-- `dr_project.ipynb` – Colab notebook  
-- `roc_curve.png` – ROC curve  
-- `confusion_matrix.png` – model comparison  
+## 🔍 Confusion Matrix
+Model	Confusion Matrix
+Logistic Regression	[[126 48], [65 161]]
+KNN (k=11)	[[134 40], [76 150]]
+
+## 📈 ROC Curve
+ <p align="center"> <img src="roc_curve.png" alt="ROC Curve" width="500"/> </p>
+
+ ## 💬 Key Findings
+
+Both models achieved ~71% accuracy on the test set.
+
+Logistic Regression → Higher recall → Better at identifying DR cases.
+
+KNN → Higher precision and AUC → Better at reducing false positives.
+
+Confirms that classical algorithms can perform reliable DR screening even without deep learning.
 
 ## 🧠 Author
 **Megha John Babu**  
