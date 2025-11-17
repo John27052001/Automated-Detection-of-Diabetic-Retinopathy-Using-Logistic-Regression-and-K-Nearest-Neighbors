@@ -39,8 +39,10 @@ Python | NumPy | Matplotlib | Google Colab
 
 ## 🔍 Confusion Matrix
 Model	Confusion Matrix
-Logistic Regression	[[126 48], [65 161]]
-KNN (k=11)	[[134 40], [76 150]]
+Logistic Regression	[[126 48]
+                     [65 161]]
+KNN (k=11)	[[134 40]
+            [76 150]]
 
 ## 📈 ROC Curve
  <p align="center"> <img src="roc_curve.png" alt="ROC Curve" width="500"/> </p>
